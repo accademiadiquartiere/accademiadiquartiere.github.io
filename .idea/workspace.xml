@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jXwZ2k69AzBNRDGkbLU5ljTonX" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/anti-oms" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/anti-order-ingestion" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/anti-xml" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/aws-lambda-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/aws4s" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/customer-events-notification" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/fs2-rabbit" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/icarus-web-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/inbound-events" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/jms4s" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/jms4s/jms4s" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/log4j2-alert-service-appender" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/log4j2-kafka-json-layout" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/oms-events" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/oms-order-enhancer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/oms-sterling-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/order-history-poc" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/orderhistory.externalorders" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/roma" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sqsmessagereprocess" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-acl-accounting-events" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-acl-banning" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-acl-events-notification" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-acl-external-events" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-acl-fraud-check" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-acl-import-catalog" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-acl-inventory" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-acl-order-validation" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-acl-warehouse-events" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-events-to-rabbit" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-header-enhancer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Yoox/Repos/sterling-inventory-sync" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+</project>
