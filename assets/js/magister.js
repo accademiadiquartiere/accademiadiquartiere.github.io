@@ -18,11 +18,17 @@ jQuery(document).ready(function ($) {
                 $(current_item).addClass('active');
                 var new_section = $($(current_item).attr('href'));
                 $.getScript('chisiamo.js', function () {
+                    $(new_section).find("#chisiamoTitle1").text("")
                     $(new_section).find("#chisiamoTitle1").append('<strong>' + chisiamo.primoTitolo + '<br></strong>')
+                    $(new_section).find("#chisiamoPar1").text("")
                     $(new_section).find("#chisiamoPar1").append(chisiamo.primoParagrafo)
+                    $(new_section).find("#chisiamoTitle2").text("")
                     $(new_section).find("#chisiamoTitle2").append('<strong>' + chisiamo.secondoTitolo + '<br></strong>')
+                    $(new_section).find("#chisiamoPar2").text("")
                     $(new_section).find("#chisiamoPar2").append(chisiamo.secondoParagrafo)
+                    $(new_section).find("#chisiamoTitle3").text("")
                     $(new_section).find("#chisiamoTitle3").append('<strong>' + chisiamo.terzoTitolo + '<br></strong>')
+                    $(new_section).find("#chisiamoPar3").text("")
                     $(new_section).find("#chisiamoPar3").append(chisiamo.terzoParagrafo)
                 });
 
@@ -46,7 +52,7 @@ jQuery(document).ready(function ($) {
 
         $.each(json.applicants, function () {
 
-            var newApplicant = $("body").find("#about > div").clone();
+            var newApplicant = $("body").find("#chisiamo > div").clone();
 
             newApplicant.find(".chisiamo1").append(this.name);
             newApplicant.find(".email").append(this.email);
