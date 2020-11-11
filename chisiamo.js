@@ -6,15 +6,15 @@ var chisiamo = {
     "terzoTitolo": "AREE DI INTERVENTO\n",
     "terzoParagrafo": "Le nostre principali Aree di intervento sono : " +
         "<br><br> " +
-        "Apprendimento della lingua italiana - <i>Accqua</i> fa parte della rete “Diritto di Parola” del Comune di Reggio Emilia. " +
+        " &nbsp;&nbsp;<span>&#8226;</span> Apprendimento della lingua italiana - <i>Accqua</i> fa parte della rete “Diritto di Parola” del Comune di Reggio Emilia. " +
         "<br><br>" +
-        "Doposcuola per i ragazzi delle scuole elementari e medie - frase breve per specificare" +
+        " &nbsp;&nbsp;<span>&#8226;</span> Doposcuola per i ragazzi delle scuole elementari e medie - frase breve per specificare" +
         "<br><br>" +
-        "  Servizi di prossimità alla persona - frase breve per specificare  " +
+        " &nbsp;&nbsp;<span>&#8226;</span>   Servizi di prossimità alla persona - frase breve per specificare  " +
         "<br><br>" +
-        "Corso di arti figurative per ragazzi - frase breve per specificare" +
+        " &nbsp;&nbsp;<span>&#8226;</span> Corso di arti figurative per ragazzi - frase breve per specificare" +
         "<br><br>" +
-        "Coro di voci bianche - frase breve per specificare" +
+        " &nbsp;&nbsp;<span>&#8226;</span> Coro di voci bianche - frase breve per specificare" +
         "<br><br>" +
-        "Accademia di Quartiere è una associazione di promozione sociale regolarmente iscritta all’Albo Regionale dell’Emilia Romagna del Terzo Settore."
+        "<i>Accademia di Quartiere è una associazione di promozione sociale regolarmente iscritta all’Albo Regionale dell’Emilia Romagna del Terzo Settore.</i>"
 }
