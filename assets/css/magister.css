@@ -56,6 +56,16 @@ body {
     float: left;
 }
 
+.marginBottomCorsi {
+    margin-bottom: 20px;
+}
+
+.leftAlignment {
+    text-align: left;
+    background: rgba(255, 99, 71, 0.2);
+    outline: 2px solid white;
+}
+
 .navbar-toggle .icon-bar {
     display: block;
     width: 22px;

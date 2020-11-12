@@ -32,11 +32,32 @@ jQuery(document).ready(function ($) {
                     $(new_section).find("#chisiamoPar3").append(chisiamo.terzoParagrafo)
                 });
 
+                $.getScript('corsi.js', function () {
+                    $(new_section).find("#corsi").text("");
+                    $(new_section).find("#corsi").append(corsi.map(appendCorso));
+                    $(new_section).find("#corsi").append("<div class\"col-sm-4 col-sm-offset-4\"/>");
+                });
+
                 new_section.fadeIn(section_show_time);
             });
         } else
             return false;
     });
+
+    function appendCorso(item, index) {
+        var mainclass = "col-sm-4 col-sm-offset-4 leftAlignment";
+
+
+        return "<div class=\"" + mainclass + "\">" +
+            "<br/>" +
+            "<p><b>Titolo:</b>" + item.titolo + "</p>" +
+            "<p><b>Descrizione:</b>" + item.descrizione + "</p>" +
+            "<p><b>Quando:</b>" + item.quando + "</p>" +
+            "<p><b>Docenti:</b>" + item.docenti + "</p>" +
+            "<p><b>Prezzo:</b>" + item.prezzo + "</p>" +
+            "</div>"
+
+    }
 
     $(function () {
         json = {
