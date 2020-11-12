@@ -55,8 +55,8 @@ jQuery(document).ready(function ($) {
             "<p><b>Quando:</b>" + item.quando + "</p>" +
             "<p><b>Docenti:</b>" + item.docenti + "</p>" +
             "<p><b>Prezzo:</b>" + item.prezzo + "</p>" +
-            "<p><b>Per informazioni aggiuntive:<b></b><a " +
-            "href=\"mailto:accademiadiquartiere@gmail.com?subject=Iscrizione" + item.titolo + "\"><i>accademiadiquartiere@gmail.com</i></a>" +
+            "<p><b>Info:<b></b><a " +
+            "href=\"mailto:accademiadiquartiere@gmail.com?subject=Iscrizione" + item.titolo + "\"><i>&nbsp;accademiadiquartiere@gmail.com</i></a>" +
             "</div></p>" +
             "</div>"
 
