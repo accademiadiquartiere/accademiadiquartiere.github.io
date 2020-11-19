@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
 
         return "<div class=\"" + mainclass + "\">" +
             "<h3 class=\"corsititle\"> " + item.titolo + "</h3>" +
-            "<img src=\"./assets/images/" + item.immagine + "\" style=\"width:-moz-available\" class=\"col-sm-12\" alt=\"" + item.titolo + "\" title=\"" + item.titolo + "\">" +
+            "<img src=\"./assets/images/" + item.immagine + "\" style=\"width:-moz-available\" class=\"col-sm-12 image main\" alt=\"" + item.titolo + "\" title=\"" + item.titolo + "\">" +
             "<p><br/><br/><b>Descrizione:</b>" + item.descrizione + "</p>" +
             "<p><b>Quando:</b>" + item.quando + "</p>" +
             "<p><b>Docenti:</b>" + item.docenti + "</p>" +
