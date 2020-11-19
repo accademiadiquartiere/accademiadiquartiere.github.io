@@ -5,7 +5,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background: #505D6E url(../images/logocolori.jpg) no-repeat center;
+    background: #505D6E url(../images/logocolori.jpg) no-repeat fixed center;
 }
 
 body {
