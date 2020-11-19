@@ -49,16 +49,17 @@ jQuery(document).ready(function ($) {
 
 
         return "<div class=\"" + mainclass + "\">" +
-            "<br/>" +
-            "<p><b>Titolo:</b>" + item.titolo + "</p>" +
-            "<p><b>Descrizione:</b>" + item.descrizione + "</p>" +
+            "<h3 class=\"corsititle\"> " + item.titolo + "</h3>" +
+            "<img src=\"./assets/images/" + item.immagine + "\" style=\"width:-moz-available\" class=\"col-sm-12\" alt=\"" + item.titolo + "\" title=\"" + item.titolo + "\">" +
+            "<p><br/><br/><b>Descrizione:</b>" + item.descrizione + "</p>" +
             "<p><b>Quando:</b>" + item.quando + "</p>" +
             "<p><b>Docenti:</b>" + item.docenti + "</p>" +
             "<p><b>Prezzo:</b>" + item.prezzo + "</p>" +
             "<p><b>Info:<b></b><a " +
             "href=\"mailto:accademiadiquartiere@gmail.com?subject=Iscrizione" + item.titolo + "\"><i>&nbsp;accademiadiquartiere@gmail.com</i></a>" +
             "</div></p>" +
-            "</div>"
+            "</div>" +
+            "<div class=\"col-sm-12\"><br/></div>"
 
     }
 

@@ -185,6 +185,22 @@ a:hover, a:active {
     line-height: 1em;
 }
 
+.corsititle {
+    font-family: 'Wire One', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 4em;
+    margin-bottom: 10px;
+    color: darkslategrey;
+    line-height: 1em;
+}
+
+.corsititle {
+    line-height: 0.8em;
+    font-size: 5.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .subtitle {
     line-height: .9em;
     font-size: 5.5em;
