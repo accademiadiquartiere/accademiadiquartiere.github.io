@@ -60,6 +60,7 @@ jQuery(document).ready(function ($) {
             "<p><br/><br/><b>Descrizione:</b>" + item.descrizioneProg + "</p>" +
             "</div></p>" +
             "</div>" +
+            "<div class=\"col-sm-12\"><br/></div>" +
             "<div class=\"col-sm-12\"><br/></div>"
 
     }
@@ -79,7 +80,10 @@ jQuery(document).ready(function ($) {
             "href=\"mailto:accademiadiquartiere@gmail.com?subject=Iscrizione" + item.titolo + "\"><i>&nbsp;accademiadiquartiere@gmail.com</i></a>" +
             "</div></p>" +
             "</div>" +
-            "<div class=\"col-sm-12\"><br/></div>"
+            "<div class=\"col-sm-12\"><br/></div>" +
+            "<div class=\"col-sm-12\"><br/></div>" +
+            "<div class=\"col-sm-12\"><br/></div>" +
+            "<div class=\"col-sm-12\"><br/></div>" 
 
     }
 
