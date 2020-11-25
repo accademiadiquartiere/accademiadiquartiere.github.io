@@ -19,17 +19,13 @@ jQuery(document).ready(function ($) {
                 var new_section = $($(current_item).attr('href'));
                 $.getScript('chisiamo.js', function () {
                     $(new_section).find("#chisiamoPar1").text("")
-                    $(new_section).find("#chisiamoPar1").append(chisiamo.primoParagrafo)
+                    $(new_section).find("#chisiamoPar1").append(chisiamo.primoParagrafo + "<br/>")
                     $(new_section).find("#chisiamoPar2").text("")
-                    $(new_section).find("#chisiamoPar2").append(chisiamo.secondoParagrafo)
+                    $(new_section).find("#chisiamoPar2").append(chisiamo.secondoParagrafo + "<br/>")
                     $(new_section).find("#chisiamoPar3").text("")
-                    $(new_section).find("#chisiamoPar3").append(chisiamo.terzoParagrafo)
+                    $(new_section).find("#chisiamoPar3").append(chisiamo.terzoParagrafo + "<br/>")
                     $(new_section).find("#chisiamoPar4").text("")
-                    $(new_section).find("#chisiamoPar4").append(chisiamo.quartoParagrafo)
-                    $(new_section).find("#areeDiIntervento").text("")
-                    $(new_section).find("#areeDiIntervento").append('<strong>' + chisiamo.areeDiIntervento + '<br></strong>')
-                    $(new_section).find("#areeDiInterventoPar").text("")
-                    $(new_section).find("#areeDiInterventoPar").append(chisiamo.areeDiInterventoParagrafo)
+                    $(new_section).find("#chisiamoPar4").append(chisiamo.quartoParagrafo + "<br/>")
                 });
 
                 $.getScript('corsi.js', function () {
@@ -83,7 +79,7 @@ jQuery(document).ready(function ($) {
             "<div class=\"col-sm-12\"><br/></div>" +
             "<div class=\"col-sm-12\"><br/></div>" +
             "<div class=\"col-sm-12\"><br/></div>" +
-            "<div class=\"col-sm-12\"><br/></div>" 
+            "<div class=\"col-sm-12\"><br/></div>"
 
     }
 
