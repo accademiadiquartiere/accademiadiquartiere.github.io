@@ -38,11 +38,32 @@ jQuery(document).ready(function ($) {
                     $(new_section).find("#corsi").append("<div class\"col-sm-4 col-sm-offset-4\"/>");
                 });
 
+                $.getScript('progettiSpeciali.js', function () {
+                    $(new_section).find("#progetti").text("");
+                    $(new_section).find("#progetti").append(progettiSpeciali.map(appendProgetti));
+                    $(new_section).find("#progetti").append("<div class\"col-sm-4 col-sm-offset-4\"/>");
+                });
+
                 new_section.fadeIn(section_show_time);
             });
         } else
             return false;
     });
+
+    function appendProgetti(item, index) {
+        var mainclass = "col-sm-10 col-sm-offset-1 leftAlignment";
+
+
+        return "<div class=\"" + mainclass + "\">" +
+            "<h3 class=\"corsititle\"> " + item.titoloProg + "</h3>" +
+            "<img src=\"./assets/images/" + item.immagineProg + "\" style=\"width:-moz-available\" class=\"col-sm-12 image main\" alt=\"" + item.titoloProg + "\" title=\"" + item.titoloProg + "\">" +
+            "<p><br/><br/><b>Descrizione:</b>" + item.descrizioneProg + "</p>" +
+            "</div></p>" +
+            "</div>" +
+            "<div class=\"col-sm-12\"><br/></div>"
+
+    }
+
 
     function appendCorso(item, index) {
         var mainclass = "col-sm-10 col-sm-offset-1 leftAlignment";
