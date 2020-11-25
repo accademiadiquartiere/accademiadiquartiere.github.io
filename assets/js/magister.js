@@ -18,18 +18,18 @@ jQuery(document).ready(function ($) {
                 $(current_item).addClass('active');
                 var new_section = $($(current_item).attr('href'));
                 $.getScript('chisiamo.js', function () {
-                    $(new_section).find("#chisiamoTitle1").text("")
-                    $(new_section).find("#chisiamoTitle1").append('<strong>' + chisiamo.primoTitolo + '<br></strong>')
                     $(new_section).find("#chisiamoPar1").text("")
                     $(new_section).find("#chisiamoPar1").append(chisiamo.primoParagrafo)
-                    $(new_section).find("#chisiamoTitle2").text("")
-                    $(new_section).find("#chisiamoTitle2").append('<strong>' + chisiamo.secondoTitolo + '<br></strong>')
                     $(new_section).find("#chisiamoPar2").text("")
                     $(new_section).find("#chisiamoPar2").append(chisiamo.secondoParagrafo)
-                    $(new_section).find("#chisiamoTitle3").text("")
-                    $(new_section).find("#chisiamoTitle3").append('<strong>' + chisiamo.terzoTitolo + '<br></strong>')
                     $(new_section).find("#chisiamoPar3").text("")
                     $(new_section).find("#chisiamoPar3").append(chisiamo.terzoParagrafo)
+                    $(new_section).find("#chisiamoPar4").text("")
+                    $(new_section).find("#chisiamoPar4").append(chisiamo.quartoParagrafo)
+                    $(new_section).find("#areeDiIntervento").text("")
+                    $(new_section).find("#areeDiIntervento").append('<strong>' + chisiamo.areeDiIntervento + '<br></strong>')
+                    $(new_section).find("#areeDiInterventoPar").text("")
+                    $(new_section).find("#areeDiInterventoPar").append(chisiamo.areeDiInterventoParagrafo)
                 });
 
                 $.getScript('corsi.js', function () {
@@ -45,7 +45,7 @@ jQuery(document).ready(function ($) {
     });
 
     function appendCorso(item, index) {
-        var mainclass = "col-sm-4 col-sm-offset-4 leftAlignment";
+        var mainclass = "col-sm-10 col-sm-offset-1 leftAlignment";
 
 
         return "<div class=\"" + mainclass + "\">" +
@@ -53,8 +53,7 @@ jQuery(document).ready(function ($) {
             "<img src=\"./assets/images/" + item.immagine + "\" style=\"width:-moz-available\" class=\"col-sm-12 image main\" alt=\"" + item.titolo + "\" title=\"" + item.titolo + "\">" +
             "<p><br/><br/><b>Descrizione:</b>" + item.descrizione + "</p>" +
             "<p><b>Quando:</b>" + item.quando + "</p>" +
-            "<p><b>Docenti:</b>" + item.docenti + "</p>" +
-            "<p><b>Prezzo:</b>" + item.prezzo + "</p>" +
+            "<p><b>Costo:</b>" + item.prezzo + "</p>" +
             "<p><b>Info:<b></b><a " +
             "href=\"mailto:accademiadiquartiere@gmail.com?subject=Iscrizione" + item.titolo + "\"><i>&nbsp;accademiadiquartiere@gmail.com</i></a>" +
             "</div></p>" +

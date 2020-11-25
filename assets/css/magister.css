@@ -192,6 +192,7 @@ a:hover, a:active {
     margin-bottom: 10px;
     color: darkslategrey;
     line-height: 1em;
+    text-align: center;
 }
 
 .corsititle {
@@ -199,6 +200,7 @@ a:hover, a:active {
     font-size: 5.5em;
     margin-top: 10px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .subtitle {

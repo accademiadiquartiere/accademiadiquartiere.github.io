@@ -1,20 +1,20 @@
 var chisiamo = {
-    "primoTitolo": "ACCADEMIA",
-    "primoParagrafo": "Accademia di Quartiere nasce con l’obiettivo ambizioso di <b>combattere la povertà educativa</b>, con la convinzione decisa che il senso profondo dell’apprendimento sia <b>imparare a essere liberi, conoscere, sapere</b>. Da questa ricchezza può scaturire il valore su cui si fonda Accademia, la dignità nel rispetto di sé stessi e degli altri. <b>Come la scalata di una parete rocciosa che permette di vedere il cielo anche se lontani dalla vetta</b>, il lavoro di Accademia comincia con gli strumenti adeguati e lavora a piccoli passi per arrivare a traguardi ambiziosi: <b>docenti qualificati, aule strutturate, spazi adatti per l’apprendimento e programmi ideati e studiati su misura.</b>",
-    "secondoTitolo": "LA NOSTRA CASA",
-    "secondoParagrafo": "<b>La nostra sede è nel cuore del Quartiere Stazione di Reggio Emilia</b>, un luogo in cui da X anni stiamo cercando di costruire una realtà con la convinzione che <b>tutti i luoghi abbiano un anima che si può plasmare con impegno e tenacia.</b>",
-    "terzoTitolo": "AREE DI INTERVENTO\n",
-    "terzoParagrafo": "Le nostre principali Aree di intervento sono : " +
+    "primoParagrafo": "Perché andiamo a scuola? Per superare un esame, per prendere un buon voto, per trovare un lavoro? No. Andiamo a scuola per imparare a essere liberi, a conoscere, a sapere, a discernere per acquisire una dignità nel rispetto degli altri.",
+    "secondoParagrafo": "La liberazione dalle povertà educative è qualcosa di molto concreto che riguarda la quotidianità della nostra vita, delle nostre azioni, dei nostri convincimenti. Da questo scaturisce tutto il resto: la possibilità di vivere una vita dignitosa e libera.",
+    "terzoParagrafo": "E’ quanto è racchiuso nei principi fondamentali dichiarati nei primi dieci articoli della Costituzione della Repubblica Italiana. In particolare Accademia di Quartiere a questi modelli si vuole ispirare, riportando nello Statuto in particolare il riferimento all’art 3 della Costituzione: “rimuovere gli ostacoli di ordine economico e sociale, che, limitando di fatto la libertà e l'eguaglianza dei cittadini, impediscono il pieno sviluppo della persona umana e l'effettiva partecipazione di tutti i lavoratori all'organizzazione politica, economica e sociale del Paese”.",
+    "quartoParagrafo": "Accademia di Quartiere è una associazione di promozione sociale regolarmente iscritta all’Albo Regionale dell’Emilia Romagna del Terzo Settore ed opera prevalentemente nel quartiere Stazione di Reggio Emilia.",
+    "areeDiIntervento": "PRINCIPALI AREE DI INTERVENTO\n",
+    "areeDiInterventoParagrafo": "Le nostre principali Aree di intervento sono : " +
         "<br><br> " +
-        " &nbsp;&nbsp;<span>&#8226;</span> Apprendimento della lingua italiana - <i>Accqua</i> fa parte della rete “Diritto di Parola” del Comune di Reggio Emilia. " +
+        " &nbsp;&nbsp;<span>&#8226;</span> Apprendimento della lingua italiana - L’associazione fa parte della rete Diritto di Parola del Comune di Reggio Emilia e offre corsi di italiano che partono dal livello base ALFA – preA1 al livello B2. " +
         "<br><br>" +
-        " &nbsp;&nbsp;<span>&#8226;</span> Doposcuola per i ragazzi delle scuole elementari e medie - frase breve per specificare" +
+        " &nbsp;&nbsp;<span>&#8226;</span> Doposcuola per i ragazzi delle scuole elementari e medie - l servizio di supporto allo studio segue il protocollo di Officina Educativa, in modo che i bambini e i ragazzi possano studiare e fare i compiti con l’aiuto dei nostri educatori in un ambiente sicuro e controllato." +
         "<br><br>" +
-        " &nbsp;&nbsp;<span>&#8226;</span>   Servizi di prossimità alla persona - frase breve per specificare  " +
+        " &nbsp;&nbsp;<span>&#8226;</span> Corso di arti figurative per ragazzi - il maestro e fotografo Maurizio Mantovi, grazie alla sua esperienza decennale sul campo, introduce la storia dell’arte e insegna ai ragazzi principali tecniche di disegno." +
         "<br><br>" +
-        " &nbsp;&nbsp;<span>&#8226;</span> Corso di arti figurative per ragazzi - frase breve per specificare" +
+        " &nbsp;&nbsp;<span>&#8226;</span> Cultura Araba - il corso è rivolto a bambini e ragazzi di diverse età e comprende la lettura del Corano e lo studio della lingua araba." +
         "<br><br>" +
-        " &nbsp;&nbsp;<span>&#8226;</span> Coro di voci bianche - frase breve per specificare" +
+        "<br><br>" +
         "<br><br>" +
         "<i>Accademia di Quartiere è una associazione di promozione sociale regolarmente iscritta all’Albo Regionale dell’Emilia Romagna del Terzo Settore.</i>"
 }
