@@ -11,8 +11,6 @@ jQuery(document).ready(function ($) {
     // Switch section
     $("a", '.mainmenu').click(function () {
         if (!$(this).hasClass('active')) {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
             current_item = this;
             // close all visible divs with the class of .section
             $('.section:visible').fadeOut(section_hide_time, function () {
@@ -44,6 +42,8 @@ jQuery(document).ready(function ($) {
 
                 new_section.fadeIn(section_show_time);
             });
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         } else
             return false;
     });
