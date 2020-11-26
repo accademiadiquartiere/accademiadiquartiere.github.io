@@ -26,12 +26,16 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: 100%;
     background-attachment: fixed;
 }
 
 /********************************************************/
 /*                    Navigation bar                    */
-/********************************************************/
+/*******************************************************/
 .mainmenu {
     z-index: 999999;
     width: 100%;
