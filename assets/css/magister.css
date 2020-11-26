@@ -36,6 +36,15 @@ body {
     }
 }
 
+.abc {
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    display: block;
+    position: fixed;
+    z-index: 999999;
+}
+
 .navbar-toggle {
     position: relative;
     float: left;
@@ -87,7 +96,7 @@ body {
 }
 
 .mainmenu .dropdown-menu {
-    top: -20em;
+    top: -50em;
     left: 0px;
     font-size: 11px;
     padding: 0;
@@ -217,10 +226,33 @@ a:hover, a:active {
     margin-bottom: 75px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 770px) {
     .lead {
         font-size: 1.3em;
     }
+
+    .mainmenu .open .dropdown-menu {
+        height: 92vh;
+        min-width: 43vh;
+        width: 100%;
+        max-width: 100vh;
+        background: #600a0a !important;
+    }
+    .theme-invert .mainmenu .dropdown-menu a {
+        color: #f7ecec !important;
+        font-size: 20px;
+    }
+    .mainmenu .dropdown-menu a:hover {
+        background: rgba(255, 255, 255, .1);
+        color: red;
+        padding: 10px 8px 10px 12px;
+    }
+
+    a:hover, a:active {
+        color: red;
+        text-decoration: underline;
+    }
+
 }
 
 
