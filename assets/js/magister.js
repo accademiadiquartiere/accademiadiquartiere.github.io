@@ -7,7 +7,6 @@ var section_show_time = 1300;
 
 // jQuery stuff
 jQuery(document).ready(function ($) {
-
     // Switch section
     $("a", '.mainmenu').click(function () {
         if (!$(this).hasClass('active')) {
@@ -40,10 +39,10 @@ jQuery(document).ready(function ($) {
                     $(new_section).find("#progetti").append("<div class\"col-sm-4 col-sm-offset-4\"/>");
                 });
 
-                new_section.fadeIn(section_show_time);
+                new_section.fadeIn(section_show_time, "swing", scrollTop());
+
             });
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
         } else
             return false;
     });
@@ -61,6 +60,11 @@ jQuery(document).ready(function ($) {
             "<div class=\"col-sm-12\"><br/></div>" +
             "<div class=\"col-sm-12\"><br/></div>"
 
+    }
+
+    function scrollTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 
 
