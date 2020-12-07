@@ -5,8 +5,32 @@ var current_item = 0;
 var section_hide_time = 1300;
 var section_show_time = 1300;
 
+
 // jQuery stuff
 jQuery(document).ready(function ($) {
+
+
+// language picker
+    jQuery(function($) {
+        // ...
+        $.i18n().load( {
+            'en': 'i18n/languages/messages-en.json',
+            'it': 'i18n/languages/messages-it.json'
+        } ).done(function() {
+            $('.switch-locale').on('change', function(e) {
+                e.preventDefault();
+                $.i18n().locale = this.value;
+                $('body').i18n();
+            });
+        });
+    });
+
+    $.i18n().load({
+        it: 'i18n/languages/messages-it.json',
+        en: 'i18n/languages/messages-en.json'
+    });
+
+    $('body').i18n();
     // Switch section
     $("a", '.mainmenu').click(function () {
         if (!$(this).hasClass('active')) {
@@ -15,6 +39,7 @@ jQuery(document).ready(function ($) {
             $('.section:visible').fadeOut(section_hide_time, function () {
                 $('a', '.mainmenu').removeClass('active');
                 $(current_item).addClass('active');
+                $('body').i18n();
                 var new_section = $($(current_item).attr('href'));
                 $.getScript('chisiamo.js', function () {
                     $(new_section).find("#chisiamoPar1").text("")
@@ -26,7 +51,6 @@ jQuery(document).ready(function ($) {
                     $(new_section).find("#chisiamoPar4").text("")
                     $(new_section).find("#chisiamoPar4").append(chisiamo.quartoParagrafo + "<br/>")
                 });
-
                 $.getScript('corsi.js', function () {
                     $(new_section).find("#corsi").text("");
                     $(new_section).find("#corsi").append(corsi.map(appendCorso));
@@ -42,7 +66,6 @@ jQuery(document).ready(function ($) {
                 new_section.fadeIn(section_show_time, "swing", scrollTop());
 
             });
-
         } else
             return false;
     });
@@ -71,20 +94,16 @@ jQuery(document).ready(function ($) {
     function appendCorso(item, index) {
         var mainclass = "col-sm-10 col-sm-offset-1 leftAlignment";
 
-
         return "<div class=\"" + mainclass + "\">" +
             "<h3 class=\"corsititle\"> " + item.titolo + "</h3>" +
             "<img src=\"./assets/images/" + item.immagine + "\" style=\"width:-moz-available\" class=\"col-sm-12 image main\" alt=\"" + item.titolo + "\" title=\"" + item.titolo + "\">" +
-            "<p><br/><br/><b>Descrizione:</b>" + item.descrizione + "</p>" +
-            "<p><b>Quando:</b>" + item.quando + "</p>" +
-            "<p><b>Costo:</b>" + item.prezzo + "</p>" +
+            "<p><br/><br/><b>" + $.i18n('descrizione') + ": </b>" + item.descrizione + "</p>" +
+            "<p><b>" + $.i18n('quando') + ": </b>" + item.quando + "</p>" +
+            "<p><b>" + $.i18n('prezzo') + ": </b>" + item.prezzo + "</p>" +
             "<p><b>Info:<b></b><a " +
             "href=\"mailto:accademiadiquartiere@gmail.com?subject=Iscrizione" + item.titolo + "\"><i>&nbsp;accademiadiquartiere@gmail.com</i></a>" +
             "</div></p>" +
             "</div>" +
-            "<div class=\"col-sm-12\"><br/></div>" +
-            "<div class=\"col-sm-12\"><br/></div>" +
-            "<div class=\"col-sm-12\"><br/></div>" +
             "<div class=\"col-sm-12\"><br/></div>"
 
     }
@@ -115,3 +134,4 @@ jQuery(document).ready(function ($) {
     });
 
 });
+
