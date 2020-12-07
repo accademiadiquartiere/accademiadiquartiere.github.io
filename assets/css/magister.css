@@ -296,6 +296,13 @@ a:hover, a:active {
         padding: 10px 8px 10px 12px;
     }
 
+    .mainmenu {
+        padding: 0 0 0 0;
+    }
+
+    .abc1 {
+        background-color: darkturquoise;
+    }
     a:hover, a:active {
         color: red;
         text-decoration: underline;
@@ -304,7 +311,7 @@ a:hover, a:active {
     .locale {
         float: right !important;
         height: 50%;
-        width: 15%;
+        width: 11%;
     }
 
 }
