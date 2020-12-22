@@ -97,6 +97,13 @@ body:before {
     margin-right: 10px;
 }
 
+.logo1 {
+    float: right !important;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
 .logo {
     height: 10rem;
     width: 10rem;
@@ -314,6 +321,7 @@ a:hover, a:active {
     .abc1 {
         background-color: darkturquoise;
     }
+
     a:hover, a:active {
         color: red;
         text-decoration: underline;
@@ -323,6 +331,11 @@ a:hover, a:active {
         float: right !important;
         height: 50%;
         width: 11%;
+    }
+
+    .logo1 {
+        height: 4rem;
+        width: 4rem;
     }
 
 }
