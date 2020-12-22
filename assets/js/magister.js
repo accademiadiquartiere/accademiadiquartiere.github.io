@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
                 var new_section = $($(current_item).attr('href'));
                 $.getScript('sezioniModificabili/chisiamo.js', function () {
                     $(new_section).find("#chiSiamoContent").text("")
-                    $(new_section).find("#chiSiamoContent").append(chisiamo.map(appendChiSiamo));
+                    $(new_section).find("#chiSiamoContent").append(chisiamo.map(appendChiSiamo) + "<div class=\"col-sm-12\"><br/></div>" + "<div class=\"col-sm-12\"><br/></div>");
 
                 });
                 $.getScript('sezioniModificabili/corsi.js', function () {
@@ -79,12 +79,9 @@ jQuery(document).ready(function ($) {
 
     function appendChiSiamo(item, index) {
         return "<div class=\"row\">" +
-            "<div class=\"col-sm-4 col-sm-offset-2\" style=\"padding-left:30px; padding-right:30px; text-align:justify\"> " +
-            "<p data-i18n=\"" + $.i18n(item.par1.label) + "\">" + $.i18n(item.par1.label) + "</p> " +
+            "<div class=\"col-sm-8 col-sm-offset-2\" style=\"padding-left:30px; padding-right:30px; text-align:justify\"> " +
+            "<p data-i18n=\"" + $.i18n(item.label) + "\">" + $.i18n(item.label) + "</p> " +
             "</div>" +
-            "<div class=\"col-sm-4\" style=\"padding-left:30px; padding-right:30px; text-align:justify\"> " +
-            "<p data-i18n=\"" + $.i18n(item.par2.label) + "\">" + $.i18n(item.par2.label) + "</p> " +
-            "</div> " +
             "</div>";
     }
 
@@ -149,7 +146,7 @@ jQuery(document).ready(function ($) {
             "<h3 class=\"corsititle\" data-i18n=\"" + item.titolo + "\"> " + $.i18n(item.titolo) + "</h3>" +
             "<img src=\"./assets/images/" + item.immagine + "\" style=\"width:-moz-available\" class=\"col-sm-12 image main\" data-i18n=\"" + item.titolo + "\" alt=\"" + $.i18n(item.titolo) + "\" title=\"" + $.i18n(item.titolo) + "\">" +
             "<p><br/><br/><b data-i18n=\"descrizione\">" + $.i18n('descrizione') + ": </b>" + "<p data-i18n=\"" + item.titolo + " Descrizione" + "\">" + $.i18n(item.titolo + " Descrizione") + "</p>" + "</p>" +
-            "<p><b data-i18n=\"quando\">" + $.i18n('quando') + ": </b><br/>" + item.quando.map(appendQuando).join("") + "</p>" +
+            "<p><b data-i18n=\"quando\">" + $.i18n('quando') + ": </b>&nbsp;" + item.quando.map(appendQuando).join("") + "</p>" +
             "<p><b>Info:<b></b><a " +
             "href=\"mailto:accademiadiquartiere@gmail.com?subject=Iscrizione" + item.titolo + "\"><i>&nbsp;accademiadiquartiere@gmail.com</i></a>" +
             "</div></p>" +
@@ -162,8 +159,8 @@ jQuery(document).ready(function ($) {
 
         if (item.nomeGruppo == null) {
             return item.orari.map(appendOrari).join("")
-        } else return "&nbsp;<i data-i18n=\"" + item.nomeGruppo + "\">" + $.i18n(item.nomeGruppo) + ":</i> " + item.orari.map(appendOrari).join("") +
-            "<br/>";
+        } else return "<br/><i data-i18n=\"" + item.nomeGruppo + "\">" + $.i18n(item.nomeGruppo) + ":</i> " + item.orari.map(appendOrari).join("") +
+            "";
 
     }
 

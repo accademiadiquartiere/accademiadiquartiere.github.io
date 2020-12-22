@@ -39,6 +39,10 @@ body:before {
     border-radius: 50% !important;
 }
 
+.cerchio {
+    border-radius: 50% !important;
+}
+
 .sfondo {
     background-image: url(../images/sfondo.jpg);
     background-repeat: no-repeat;
