@@ -17,11 +17,11 @@ var volti = [
     {
         nome: "Omaima",
         foto: "omaima.jpg",
-        ruolo: "Volontarioa"
+        ruolo: "Volontaria"
     },
     {
-        nome: "Mirco",
-        foto: "mirco1.jpg",
+        nome: "Mirko",
+        foto: "mirko1.jpg",
         ruolo: "Maestro di Musica"
     },
     {
