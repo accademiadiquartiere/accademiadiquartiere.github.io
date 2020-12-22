@@ -590,12 +590,6 @@ a:hover, a:active {
     width: 100%;
 }
 
-.sponsorImage.main {
-    display: block;
-    margin: 2.5rem 0;
-    width: 50%;
-}
-
 .sponsorImage.main img {
     width: 50%;
 }

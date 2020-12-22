@@ -109,7 +109,8 @@ jQuery(document).ready(function ($) {
 
         return "<div class=\"" + mainclass + "\">" +
             "<h3 class=\"corsititle\"> " + item.titoloCollaborazione + "</h3>" +
-            item.partners.map(appendSponsor) +
+            item.partners.map(appendSponsor).join("<div class=\"col-sm-12\"><br/></div>") +
+            "<div class=\"col-sm-12\"><br/></div>" +
             "</div></p>" +
             "</div>" +
             "<div class=\"col-sm-12\"><br/></div>" +
@@ -117,7 +118,7 @@ jQuery(document).ready(function ($) {
     }
 
     function appendSponsor(item, index) {
-        return "<img src=\"./assets/images/" + item.immaginePartner + "\" style=\"width:50%; float:right;\" class=\"col-sm-12 sponsorImage main\" alt=\"" + item.nomePartner + "\" title=\"" + item.nomePartner + "\">"
+        return "<img src=\"./assets/images/" + item.immaginePartner + "\" style=\"width:50%; padding-right: 5px\" alt=\"" + item.nomePartner + "\" title=\"" + item.nomePartner + "\">"
 
     }
 
