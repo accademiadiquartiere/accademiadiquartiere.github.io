@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it" id="all">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+    <meta name="author" content="Accademia di quartiere">
 
     <title>Accademia di Quartiere - LIBERAZIONE DALLE POVERTA' EDUCATIVE
     </title>
@@ -22,6 +22,7 @@
 
 <!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
 <body class="theme-invert">
+
 <nav class="mainmenu">
     <div class="container abc">
         <div class="dropdown">
@@ -30,27 +31,34 @@
             <!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
             <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
                 <li><a href="#head" class="active">Home</a></li>
-                <li><a href="#chisiamo">Chi Siamo</a></li>
-                <li><a href="#cosaFacciamo">Offerta Formativa</a></li>
-                <li><a href="#progettiSpeciali">Progetti Speciali</a></li>
-                <li><a href="#contact">Contatti</a></li>
+                <li><a href="#chisiamo" data-i18n="Chi Siamo">Chi Siamo</a></li>
+                <li><a href="#cosaFacciamo" data-i18n="Offerta Formativa">Offerta Formativa</a></li>
+                <li><a href="#progettiSpeciali" data-i18n="Progetti Speciali">Progetti Speciali</a></li>
+                <li><a href="#collaborazioni" data-i18n="Collaborazioni">Collaborazioni</a></li>
+                <li><a href="#inostrivolti" data-i18n="I Nostri Volti">I Nostri Volti</a></li>
+                <li><a href="#contact" data-i18n="Contatti">Contatti</a></li>
             </ul>
         </div>
     </div>
+    <div class="container abc1" style="display: none">
+        <select id="switch-locale-select" class="switch-locale locale" data-flag="true">
+            <option>it</option>
+            <option>en</option>
+        </select>
+        <script>
+            $('.countrypicker').countrypicker();
+        </script>
+    </div>
 </nav>
-
 
 <!-- Main (Home) section -->
 <section class="section" id="head">
     <div class="container">
-
         <div class="row">
             <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center backgroundOpaque">
-
-                <!-- Site Title, your name, HELLO msg, etc. -->
-                <h1 class="title"><b>Accademia di Quartiere</b></h1>
-                <h2 class="subtitle">Liberazione dalle povertà educative</h2>
-
+                <h1 class="title"><b data-i18n="Accademia di Quartiere">Accademia di Quartiere</b></h1>
+                <h2 class="subtitle" data-i18n="Liberazione dalle povertà educative">Liberazione dalle povertà
+                    educative</h2>
             </div> <!-- /col -->
         </div> <!-- /row -->
 
@@ -61,39 +69,9 @@
 <section class="section" id="chisiamo">
     <div class="container">
 
-        <div class="col-md-13 col-lg-13 col-md-offset-1 col-lg-offset-1 text-center backgroundOpaque">
-            <h2 class="text-center title"><b>Chi Siamo</b></h2>
-            <div class="row">
-                <div class="col-sm-4 col-sm-offset-2" style="padding-left:30px; padding-right:30px; text-align:justify">
-                    <p id="chisiamoPar1"></p>
-                </div>
-                <div class="col-sm-4" style="padding-left:30px; padding-right:30px; text-align:justify">
-                    <p id="chisiamoPar2"></p>
-                    <!--				<h5><strong>Author links<br></strong></h5>    -->
-                    <!--				<p><a href="http://be.net/pozhilov9409">Behance</a> / <a href="https://twitter.com/serggg">Twitter</a> / <a href="http://linkedin.com/pozhilov">LinkedIn</a> / <a href="https://www.facebook.com/pozhilov">Facebook</a></p>-->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-sm-offset-2" style="padding-left:30px; padding-right:30px; text-align:justify">
-                    <p id="chisiamoPar3"></p>
-                </div>
-                <div class="col-sm-4" style="padding-left:30px; padding-right:30px; text-align:justify">
-                    <p id="chisiamoPar4"></p>
-                    <!--				<h5><strong>Author links<br></strong></h5>    -->
-                    <!--				<p><a href="http://be.net/pozhilov9409">Behance</a> / <a href="https://twitter.com/serggg">Twitter</a> / <a href="http://linkedin.com/pozhilov">LinkedIn</a> / <a href="https://www.facebook.com/pozhilov">Facebook</a></p>-->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2" style="padding-left:30px; padding-right:30px; text-align:justify">
-                    <h5 id="areeDiIntervento"></h5>
-                    <p id="areeDiInterventoPar"></p>
-                </div>
-                <!--<div class="col-sm-4" style="padding-left:30px; padding-right:30px; text-align:justify">
-                    &lt;!&ndash;<h5 id="chisiamoTitle2"></h5> &ndash;&gt;
-                    &lt;!&ndash;<p id="chisiamoPar2"></p> &ndash;&gt;
-                    &lt;!&ndash;				<h5><strong>Author links<br></strong></h5>    &ndash;&gt;
-                    &lt;!&ndash;				<p><a href="http://be.net/pozhilov9409">Behance</a> / <a href="https://twitter.com/serggg">Twitter</a> / <a href="http://linkedin.com/pozhilov">LinkedIn</a> / <a href="https://www.facebook.com/pozhilov">Facebook</a></p>&ndash;&gt;
-                </div>-->
+        <div class="col-md-13 col-lg-13 col-md-offset-1 col-lg-offset-1 text-center backgroundOpaque row">
+            <h2 class="text-center title"><b data-i18n="Chi Siamo">Chi Siamo</b></h2>
+            <div id="chiSiamoContent">
             </div>
         </div>
     </div>
@@ -103,7 +81,7 @@
     <div class="container">
         <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center backgroundOpaque">
 
-            <h2 class="text-center title"><b>Offerta Formativa</b></h2>
+            <h2 class="text-center title"><b data-i18n="Offerta Formativa">Offerta Formativa</b></h2>
             <div id="corsi" class="row marginBottomCorsi">
             </div>
         </div>
@@ -114,69 +92,30 @@
     <div class="container">
         <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center backgroundOpaque">
 
-            <h2 class="text-center title"><b>Progetti Speciali</b></h2>
+            <h2 class="text-center title"><b data-i18n="Progetti Speciali">Progetti Speciali</b></h2>
             <div id="progetti" class="row marginBottomCorsi">
             </div>
         </div>
     </div>
 </section>
 
-<!-- Third (Works) section -->
-<section class="section" id="raccontiamoci">
-    <div class="container ">
+<section class="section" id="collaborazioni">
+    <div class="container">
         <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center backgroundOpaque">
 
-            <h2 class="text-center title"><b>Raccontiamoci</b></h2>
-            <p class="lead text-center">
-                Huge thank you to all people who publish<br>
-                their photos at <a href="http://unsplash.com">Unsplash</a>, thank you guys!
-            </p>
-            <div class="row">
-                <div class="col-sm-4 col-sm-offset-2">
-                    <div class="thumbnail">
-                        <iframe src="https://www.youtube.com/embed/fbyrva6quTg?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"
-                                allowfullscreen></iframe>
-                        <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam
-                                cupiditate eius at explicabo eaque facere iste.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <iframe src="https://www.youtube.com/embed/HW-lXjOyUWo?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"
-                                allowfullscreen></iframe>
-                        <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam
-                                cupiditate eius at explicabo eaque facere iste.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-sm-offset-">
-                    <div class="thumbnail">
-                        <iframe src="https://www.youtube.com/embed/dstozDN0Jjc?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"
-                                allowfullscreen></iframe>
-                        <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam
-                                cupiditate eius at explicabo eaque facere iste.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <iframe src="https://www.youtube.com/embed/UXL1Cl-ccWg?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"
-                                allowfullscreen></iframe>
-                        <div class="caption">
-                            <h3>Thumbnail label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam
-                                cupiditate eius at explicabo eaque facere iste.</p>
-                        </div>
-                    </div>
-                </div>
+            <h2 class="text-center title"><b data-i18n="Collaborazioni">Collaborazioni</b></h2>
+            <div id="collab" class="row">
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="section" id="inostrivolti">
+    <div class="container">
+        <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center backgroundOpaque">
+
+            <h2 class="text-center title"><b data-i18n="I Nostri Volti">I Nostri Volti</b></h2>
+            <div id="volti" class="row">
             </div>
         </div>
     </div>
@@ -187,21 +126,22 @@
     <div class="container">
         <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center backgroundOpaque">
 
-            <h2 class="text-center title"><b>Contatti</b></h2>
+            <h2 class="text-center title"><b data-i18n="Contatti">Contatti</b></h2>
 
-            <h3>Dove Siamo</h3>
-            <div>Via Agostino Paradisi, 10, Reggio Emilia(RE)</div>
+            <h3 data-i18n="dove-siamo">Dove Siamo</h3>
+            <div data-i18n="indirizzo">Via Agostino Paradisi, 10, Reggio Emilia(RE)</div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.279613395686!2d10.647831315907487!3d44.693489979099304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47801da951794ccd%3A0xa62f84189079d90!2sVia%20Agostino%20Paradisi%2C%2010%2C%2042121%20Reggio%20nell&#39;Emilia%20RE!5e0!3m2!1sen!2sit!4v1605774230975!5m2!1sen!2sit"
                     width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
             <br/>
-            <h3>Orari di apertura</h3>
-            <div> Lunedì - Giovedì 09:30 - 12:30 15:00 - 19:00</div>
-            <div> Venerdì 15:00 - 19:00</div>
-            <div> Sabato e Domenica Chiusi</div>
+            <h3 data-i18n="orari-di-apertura">Orari di apertura</h3>
+            <div data-i18n="lun-gio"> Lunedì - Giovedì 09:30 - 12:30 15:00 - 19:00</div>
+            <div data-i18n="ven"> Venerdì 15:00 - 19:00</div>
+            <div data-i18n="dom"> Domenica Chiuso</div>
             <br/>
-            <h3>Contattaci:</h3>
-            <div>Telefono: +39 0522 1309006</div>
+            <h3 data-i18n="contattaci">Contattaci:</h3>
+            <div data-i18n="telefono">Telefono: +39 0522 1309006</div>
+            <div data-i18n="cellulare">Cellulare: +39 353 4194636</div>
             <div>Email: <a
                     href="mailto:accademiadiquartiere@gmail.com?subject=Contatto">accademiadiquartiere@gmail.com </a>
             </div>
@@ -216,17 +156,25 @@
         </div>
     </div>
 </section>
-
 <section class="section" id="footer">
 </section>
 
 
 <!-- Load js libs only when the page is loaded. -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="assets/js/modernizr.custom.72241.js"></script>
+<script src="i18n/CLDRPluralRuleParser.js"></script>
 <!-- Custom template scripts -->
-<script type="text/javascript" src="chisiamo.js"></script>
 <script src="assets/js/magister.js"></script>
+<script src="i18n/jquery.i18n.js"></script>
+<script src="i18n/jquery.i18n.messagestore.js"></script>
+<script src="i18n/jquery.i18n.fallbacks.js"></script>
+<script src="i18n/jquery.i18n.language.js"></script>
+<script src="i18n/jquery.i18n.parser.js"></script>
+<script src="i18n/jquery.i18n.emitter.js"></script>
+<script src="i18n/jquery.i18n.emitter.bidi.js"></script>
+
 </body>
 </html>
