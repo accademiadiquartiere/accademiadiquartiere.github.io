@@ -8,7 +8,7 @@ var chisiamo = [
         "label": "CS Secondo Paragrafo"
     },
     {
-        "testo": "Essere tra i cittadini soprattutto quelli appartenenti alle fasce emarginate ci consente di osservare con sguardo attento ai bisogni culturali indispensabile per una giusta convivenza e integrazione in una società globale e multietnica.Un laboratorio intenso e vivo, uno spazio di condivisione in cui accorciare ogni distanza e provare a vivere meglio. Lingua, fotografia, arti figurative, tutti tasselli di un mosaico che è qualcosa di più della somma delle sue parti.",
+        "testo": "Essere tra i cittadini soprattutto quelli appartenenti alle fasce emarginate ci consente di guardare con un occhio attento ai bisogni culturali indispensabile per una giusta convivenza e integrazione in una società globale e multietnica.Un laboratorio intenso e vivo, uno spazio di condivisione in cui accorciare ogni distanza e provare a vivere meglio. Lingua, fotografia, arti figurative, tutti tasselli di un mosaico che è qualcosa di più della somma delle sue parti.",
         "label": "CS Terzo Paragrafo"
     },
     {
