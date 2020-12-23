@@ -19,6 +19,25 @@
   "Liberazione dalle povertà educative": "Liberazione dalle povertà educative",
   "Progetti Speciali": "Special Projects",
 
+  "CS Primo Paragrafo": "Traduzione in inglese primo paragrafo",
+  "CS Secondo Paragrafo": "Traduzione in inglese secondo paragrafo",
+  "CS Terzo Paragrafo": "Traduzione in inglese terzo paragrafo",
+  "CS Quarto Paragrafo": "Traduzione in inglese quarto paragrafo",
+
+  "Corsi di lingua italiana": "Italian Courses",
+  "Doposcuola": "After School",
+  "Corso di arti figurative": "Arts",
+  "Cultura Araba": "Arab Culture",
+  "Corsi di lingua italiana Descrizione": "traduzione della descrizione del corso di lingua italiana",
+  "Doposcuola Descrizione": " traduzione della descrizione del corso doposcuola",
+  "Corso di arti figurative Descrizione": " traduzione della descrizione del corso di arti figurative",
+  "Cultura Araba Descrizione": " traduzione della descrizione del corso di cultura araba",
+  "PRE-A1": "PRE-A1",
+  "A2": "A2",
+  "B1/B2": "B1/B2",
+  "Primo gruppo": "First group",
+  "Secondo gruppo": "Second group",
+  
 
   "Lunedì - Mercoledì 9:30 - 11:30": "        Monday - Wednesday 9:30 - 11:30",
   "Martedì - Giovedì 9:30 - 11:30": "         Monday - Thursday 9:30 - 11:30",
@@ -27,5 +46,6 @@
   "Lunedì, Martedì, Mercoledì, Giovedì: 15 – 17 / 17 – 19": "             Monday, Tuesday, Wednesday, Thursday: 15 – 17 / 17 – 19",
   "Ogni Venerdì dalle 17 alle 18:30": "Each Friday from 17 to 18:30",
   "Lunedì - Mercoledì 17:00 - 18:30": "Monday - Wednesday 17:00 - 18:30",
-  "Martedì - Giovedì 19 - 20:30": "Tuesday - Thursday 19 - 20:30"
+  "Martedì - Giovedì 19 - 20:30": "Tuesday - Thursday 19 - 20:30",
+  "I Nostri Volti": "Our faces"
 }
