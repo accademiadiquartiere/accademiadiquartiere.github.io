@@ -14,5 +14,10 @@ var chisiamo = [
     {
         "testo": "Accademia di Quartiere è una associazione di promozione sociale regolarmente iscritta all'Albo Regionale dell'Emilia Romagna del Terzo Settore ed opera prevalentemente nel quartiere Stazione di Reggio Emilia.",
         "label": "CS Quarto Paragrafo"
-    }
+    },
+    {
+        "testo": "Nuovo paragrafo",
+        "label": "CS Quinto Paragrafo"
+    }       
+    
 ]
