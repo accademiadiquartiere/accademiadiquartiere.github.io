@@ -8,6 +8,10 @@ var collaborazioni = [{
         {
             nomePartner: "Arci",
             immaginePartner: "arci.png"
+        },
+        {
+            nomePartner: "Comune di Bologna",
+            immaginePartner: "comuneDiBologna.png"
         }
     ]
 },
