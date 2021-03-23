@@ -157,7 +157,7 @@ jQuery(document).ready(function ($) {
     }
 
     function appendNews(item, index) {
-        return " <article class=\"day-forecast\">" +
+        return " <article class=\"day-forecast\" style=\"text-align:justify\">" +
             "<h1 class='text-center'><b>" + item.titoloNews + "</b></h1>" +
             "<p class='text-center'>" + item.sottotitolo + "</p>" +
             "<div class=\"col-sm-12\"><br/></div>" +
