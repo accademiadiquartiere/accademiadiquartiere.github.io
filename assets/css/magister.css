@@ -682,4 +682,41 @@ a:hover, a:active {
 
 /* Custom dropdown */
 
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font-family: 'Wire One', Helvetica, Arial, sans-serif;
+}
+
+.forecast > h1,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 2rem;
+    font-family: 'Wire One', Helvetica, Arial, sans-serif;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat url('/assets/images/right-arrow.svg') white !important;
+}
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .9rem;
+    font-size: 4rem;
+    font-family: 'Wire One', Helvetica, Arial, sans-serif;
+    line-height: 0.8;
+}
+.day-forecast > h1 {
+    margin: .2rem;
+    font-size: 5rem;
+    font-family: 'Wire One', Helvetica, Arial, sans-serif;
+
+}
+
+
+.newsArrow {
+    cursor: pointer;
+}
 

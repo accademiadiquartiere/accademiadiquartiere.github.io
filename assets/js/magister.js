@@ -12,6 +12,19 @@ jQuery(document).ready(function ($) {
 
 // language picker
     jQuery(function ($) {
+        $.getScript('sezioniModificabili/news.js', function () {
+            $("#head").find("#news").text("");
+            $("#head").find("#news").append(news.map(appendNews));
+            $(".buttons").click(function () {
+                var divname = this.getAttribute("value");
+                if ($("#news" + divname).is(":hidden")) {
+                    $("#news" + divname).slideToggle().show("slow");
+                } else {
+                    $("#news" + divname).slideToggle().hide("slow");
+                }
+            });
+            $("#head").find("#news").append("<div class\"col-sm-4 col-sm-offset-4\"/>");
+        });
         // ...
         $.i18n().load({
             'en': 'i18n/languages/messages-en.json',
@@ -70,7 +83,29 @@ jQuery(document).ready(function ($) {
                     $(new_section).find("#volti").append("<div class\"col-sm-4 col-sm-offset-4\"/>");
                 });
 
+                $.getScript('sezioniModificabili/news.js', function () {
+                    $(new_section).find("#news").text("");
+                    $(new_section).find("#news").append(news.map(appendNews));
+                    $(".buttons").click(function () {
+                        var divname = this.getAttribute("value");
+                        if ($("#news" + divname).is(":hidden")) {
+                            $("#news" + divname).slideToggle().show("slow");
+                        } else {
+                            $("#news" + divname).slideToggle().hide("slow");
+                        }
+                    });
+                    $(new_section).find("#news").append("<div class\"col-sm-4 col-sm-offset-4\"/>");
+                });
+
                 new_section.fadeIn(section_show_time, "swing", scrollTop());
+                $(".buttons").click(function () {
+                    var divname = this.getAttribute("value");
+                    if ($("#news" + divname).is(":hidden")) {
+                        $("#news" + divname).slideToggle().show("slow");
+                    } else {
+                        $("#news" + divname).slideToggle().hide("slow");
+                    }
+                });
 
             });
         } else
@@ -92,7 +127,7 @@ jQuery(document).ready(function ($) {
         return "<div class=\"" + mainclass + "\">" +
             "<h3 class=\"corsititle\"> " + item.titoloProg + "</h3>" +
             "<img src=\"./assets/images/" + item.immagineProg + "\" style=\"width:-moz-available\" class=\"col-sm-12 image main\" alt=\"" + item.titoloProg + "\" title=\"" + item.titoloProg + "\">" +
-            "<p><br/><br/><b>Descrizione:</b>" + item.descrizioneProg + "</p>" +
+            "<p data-i18n=\"Re-Care Descrizione\"><br/><br/><b data-i18n=\"Descrizione\">Descrizione:</b>" + item.descrizioneProg + "</p>" +
             "</div></p>" +
             "</div>" +
             "<div class=\"col-sm-12\"><br/></div>" +
@@ -112,6 +147,27 @@ jQuery(document).ready(function ($) {
             "</div>" +
             "<div class=\"col-sm-12\"><br/></div>" +
             "<div class=\"col-sm-12\"><br/></div>"
+    }
+
+
+    function eventuallyAppendFoto(item) {
+        if (item.foto != null)
+            return "<img style=\"width:-moz-available\" class=\"col-sm-12 image main\" src='./assets/images/" + item.foto + "'/>"
+        else return ""
+    }
+
+    function appendNews(item, index) {
+        return " <article class=\"day-forecast\">" +
+            "<h1 class='text-center'><b>" + item.titoloNews + "</b></h1>" +
+            "<p class='text-center'>" + item.sottotitolo + "</p>" +
+            "<div class=\"col-sm-12\"><br/></div>" +
+            "<div  class='text-center newsArrow buttons' value='" + index + "'>&#8595;</div>" +
+            "</article>" +
+            "<article id='news" + index + "' style='display: none' class=\"day-forecast\">" +
+            eventuallyAppendFoto(item) +
+            "<p>" + item.testoNews + "</p>"
+            + "</article>"
+
     }
 
     function appendSponsor(item, index) {
@@ -167,31 +223,5 @@ jQuery(document).ready(function ($) {
     function appendOrari(item, index) {
         return "&nbsp;&nbsp;&nbsp;<p data-i18n=\"" + item.orario + "\">" + $.i18n(item.orario) + "</p>";
     }
-
-    $(function () {
-        json = {
-            "applicants": [
-                {
-                    "name": "Nicholas Robinson",
-                    "email": "ntrpilot@gmail.com",
-                    "gender": "Male",
-                    "age": "22"
-                }
-            ]
-        };
-
-        $.each(json.applicants, function () {
-
-            var newApplicant = $("body").find("#chisiamo > div").clone();
-
-            newApplicant.find(".chisiamo1").append(this.name);
-            newApplicant.find(".email").append(this.email);
-            newApplicant.find(".gender").append(this.gender);
-            newApplicant.find(".age").append(this.age);
-
-            $(newApplicant).appendTo(".applicant-list");
-        });
-    });
-
 });
 
