@@ -698,7 +698,6 @@ a:hover, a:active {
 }
 
 .day-forecast {
-    background: right/contain content-box border-box no-repeat url('/assets/images/right-arrow.svg') white !important;
 }
 
 .day-forecast > h2,
