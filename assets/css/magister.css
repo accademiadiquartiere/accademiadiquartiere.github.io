@@ -698,6 +698,7 @@ a:hover, a:active {
 }
 
 .day-forecast {
+    background: right/contain content-box border-box no-repeat white !important;
 }
 
 .day-forecast > h2,
