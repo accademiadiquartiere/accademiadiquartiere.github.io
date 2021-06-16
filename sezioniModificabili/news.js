@@ -1,5 +1,5 @@
 var news = [{ titoloNews: "I campi gioco “Estate Paradisi” ed “Estate Villa Sesso” proseguono fino al 30 luglio",
-    sottotitolo: "Il campo giochi estivo di Accademia di quartiere, in collaborazione con Officina Educativa, è rivolto è rivolto ai ragazzi dai 6 ai 12 anni",
+    sottotitolo: "Il programma dei campi gioco di Accademia di quartiere rivolti ai ragazzi dai 6 ai 15 anni",
     testoNews: "<p>A Reggio Emilia e Villa Sesso proseguono fino al 30 luglio i campi gioco estivi di Accademia di Quartiere in collaborazione con Officina Educativa del Comune di Reggio nell'Emilia. </p>\n" +
         "\n" +
 "<p>“ESTATE PARADISI”, CORSI DI CANTO E ORTO IN TERRAZZA</p>\n" +
@@ -11,8 +11,7 @@ var news = [{ titoloNews: "I campi gioco “Estate Paradisi” ed “Estate Vill
 "<p>Il campo giochi estivo è rivolto ai ragazzi dai 6 ai 12 anni. Le attività si svolgono presso la Sala Polivalente in via Galeotti 6 a Villa Sesso (RE) dal lunedì al venerdì, dalle 16 alle 19.30. In programma giochi, gite, momenti da dedicare ai compiti delle vacanze, il laboratorio di teatro a cura di Noveteatro e molto altro.</p> \n" +
 "<p>Per info e iscrizioni a “Estate Villa Sesso”: 333 7876797 (tutti i giorni dalle 15 alle 19) – <a href=mailto:accademiadiquartiere@gmail.com>accademiadiquartiere@gmail.com</a></p>\n" +
 
-"<p>L'iscrizione costa <b>25 euro</b> a settimana, la quota può essere <b>rimborsata</b> e i nostri operatori sono disponibili a spiegare come ottenere il rimborso.</p>\n",
-    foto: "cover-facebook-campi.jpg"
+"<p>L'iscrizione costa <b>25 euro</b> a settimana, la quota può essere <b>rimborsata</b> e i nostri operatori sono disponibili a spiegare come ottenere il rimborso.</p>"
 
 },{
     
