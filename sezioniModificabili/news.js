@@ -1,5 +1,3 @@
-var 
-
 news = [{ titoloNews: "I campi gioco “Estate Paradisi” ed “Estate Villa Sesso” proseguono fino al 30 luglio",
     sottotitolo: "Il programma dei campi gioco di Accademia di quartiere rivolti ai ragazzi dai 6 ai 15 anni",
     testoNews: "<p>A Reggio Emilia e Villa Sesso proseguono fino al 30 luglio i campi gioco estivi di Accademia di Quartiere in collaborazione con Officina Educativa del Comune di Reggio nell'Emilia. </p>\n" +
