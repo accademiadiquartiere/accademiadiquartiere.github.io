@@ -6,11 +6,11 @@ var news = [{ titoloNews: "I campi gioco “Estate Paradisi” ed “Estate Vill
         "<p>Il campo giochi estivo è rivolto ai ragazzi dai 6 ai 15 anni e le attività si svolgono in via Paradisi 10 a Reggio Emilia dal lunedì al venerdì, dalle 9 alle 13. In programma corsi di canto, orto in terrazza, visite ai Musei, momenti da dedicare ai compiti delle vacanze, corsi di inglese e spagnolo, letture e molto altro.</p>\n" + 
 "<p>Per info e iscrizioni: 353 4024417 (tutti i giorni dalle 10 alle 13) – <a href=mailto:accademiadiquartiere@gmail.com>accademiadiquartiere@gmail.com</a></p> \n" +
 "\n" +
-"<br /><br/>"
+"\n" +
 "<p>“ESTATE VILLA SESSO”, GIOCHI, GITE E LABORATORIO DI TEATRO</p> \n" +
 "<p>Il campo giochi estivo è rivolto ai ragazzi dai 6 ai 12 anni. Le attività si svolgono presso la Sala Polivalente in via Galeotti 6 a Villa Sesso (RE) dal lunedì al venerdì, dalle 16 alle 19.30. In programma giochi, gite, momenti da dedicare ai compiti delle vacanze, il laboratorio di teatro a cura di Noveteatro e molto altro.</p> \n" +
 "<p>Per info e iscrizioni a “Estate Villa Sesso”: 333 7876797 (tutti i giorni dalle 15 alle 19) – <a href=mailto:accademiadiquartiere@gmail.com>accademiadiquartiere@gmail.com</a></p>\n" +
-"<br /><br/>"
+"\n" +
 "<p>L'iscrizione costa <b>25 euro</b> a settimana, la quota può essere <b>rimborsata</b> e i nostri operatori sono disponibili a spiegare come ottenere il rimborso.</p>"
 
 },{
