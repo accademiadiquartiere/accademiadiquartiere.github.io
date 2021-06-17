@@ -15,7 +15,7 @@ news = [{ titoloNews: "I campi gioco “Estate Paradisi” ed “Estate Villa Se
 
 },{
     
-   titoloNews: "Nel nuovo quartiere della Stazione si dedichi uno spazio culturale a Jo Cox",
+   titoloNews: "«Nel nuovo quartiere della Stazione si dedichi uno spazio culturale a Jo Cox»",
     sottotitolo: "Accademia di quartiere propone che si ricordi l’impegno sociale e politico della parlamentare britannica assassinata cinque anni fa da un fanatico razzista",
     testoNews:"<p>Cinque anni fa il 16 giugno veniva uccisa barbaramente nei pressi di Leeds <b>Joan Cox</b>, nata Leadbeater. L’assassino, un fanatico razzista, infierì sul suo corpo quasi cadavere.</p>" +
  "<p>&nbsp;</p>" +
