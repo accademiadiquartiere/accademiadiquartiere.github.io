@@ -1,4 +1,4 @@
-var news titoloNews: "Nel nuovo quartiere della Stazione si dedichi uno spazio culturale a Jo Cox",
+news = [{ titoloNews: "Nel nuovo quartiere della Stazione si dedichi uno spazio culturale a Jo Cox",
     sottotitolo: "Accademia di quartiere propone che si ricordi l’impegno sociale e politico della parlamentare britannica assassinata cinque anni fa da un fanatico razzista",
     testoNews:"<p>Cinque anni fa il 16 giugno veniva uccisa barbaramente nei pressi di Leeds Joan Cox, nata Leadbeater. L’assassino, un fanatico razzista, infierì sul suo corpo quasi cadavere.</p>" +
 
