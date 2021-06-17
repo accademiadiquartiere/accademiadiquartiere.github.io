@@ -1,21 +1,4 @@
-news = [{ titoloNews: "I campi gioco “Estate Paradisi” ed “Estate Villa Sesso” proseguono fino al 30 luglio",
-    sottotitolo: "Il programma dei campi gioco di Accademia di quartiere rivolti ai ragazzi dai 6 ai 15 anni",
-    testoNews: "<p>A Reggio Emilia e Villa Sesso proseguono fino al 30 luglio i campi gioco estivi di Accademia di Quartiere in collaborazione con Officina Educativa del Comune di Reggio nell'Emilia. </p>\n" +
-        "\n" +
-"<p><B>“ESTATE PARADISI”, CORSI DI CANTO E ORTO IN TERRAZZA</B></p>\n" +
-        "<p>Il campo giochi estivo è rivolto ai ragazzi dai 6 ai 15 anni e le attività si svolgono in via Paradisi 10 a Reggio Emilia dal lunedì al venerdì, dalle 9 alle 13. In programma corsi di canto, orto in terrazza, visite ai Musei, momenti da dedicare ai compiti delle vacanze, corsi di inglese e spagnolo, letture e molto altro.</p>\n" + 
-"<p>Per info e iscrizioni: 353 4024417 (tutti i giorni dalle 10 alle 13) – <a href=mailto:accademiadiquartiere@gmail.com>accademiadiquartiere@gmail.com</a></p> \n" +
-"\n" +
-"\n" +
-"<p><b>“ESTATE VILLA SESSO”, GIOCHI, GITE E LABORATORIO DI TEATRO</b></p> \n" +
-"<p>Il campo giochi estivo è rivolto ai ragazzi dai 6 ai 12 anni. Le attività si svolgono presso la Sala Polivalente in via Galeotti 6 a Villa Sesso (RE) dal lunedì al venerdì, dalle 16 alle 19.30. In programma giochi, gite, momenti da dedicare ai compiti delle vacanze, il laboratorio di teatro a cura di Noveteatro e molto altro.</p> \n" +
-"<p>Per info e iscrizioni a “Estate Villa Sesso”: 333 7876797 (tutti i giorni dalle 15 alle 19) – <a href=mailto:accademiadiquartiere@gmail.com>accademiadiquartiere@gmail.com</a></p>\n" +
-"\n" +
-"<p>L'iscrizione costa <b>25 euro</b> a settimana, la quota può essere <b>rimborsata</b> e i nostri operatori sono disponibili a spiegare come ottenere il rimborso.</p>"
-
-},{
-    
-   titoloNews: "«Nel nuovo quartiere della Stazione si intitoli uno spazio culturale a Jo Cox»",
+news = [{ titoloNews: "«Nel nuovo quartiere della Stazione si intitoli uno spazio culturale a Jo Cox»",
     sottotitolo: "Accademia di quartiere propone che si ricordi l’impegno sociale e politico della parlamentare britannica assassinata cinque anni fa da un fanatico razzista",
     testoNews:"<p>Cinque anni fa il 16 giugno veniva uccisa barbaramente nei pressi di Leeds <b>Joan Cox</b>, nata Leadbeater. L’assassino, un fanatico razzista, infierì sul suo corpo quasi cadavere.</p>" +
  "<p>&nbsp;</p>" +
@@ -34,6 +17,23 @@ news = [{ titoloNews: "I campi gioco “Estate Paradisi” ed “Estate Villa Se
 "<p>Alla luce dei fatti viene da dire che il volontariato, la cittadinanza attiva sono belle cose ma non bastano più se non vi è una <b>presa di coscienza collettiva</b> che deve far leva su una nuova cultura del vivere insieme fatta non solo di rispetto dei diritti, certamente, ma anche di maggiore giustizia sociale di transizione economica ed ecologica, di distribuzione della ricchezza e del lavoro.</p>" + 
  "<p>&nbsp;</p>" +
 "<p>Per questo come <b>Accademia di Quartiere</b>, associazione di promozione sociale, impegnata nel quartiere Stazione, e non solo, in attività di liberazione dalle povertà educative fatta di insegnamento della lingua italiana, di doposcuola per i più piccoli e di promozione della convivenza, proponiamo che all’interno del progetto di risanamento del quartiere vi sia spazio per <b>intitolare a Jo Cox un nuovo insediamento culturale</b> nel quartiere multietnico che verrà e che tutti insieme siamo impegnati a costruire nel ricordo di Jo.</p>"
+
+},{
+    
+    titoloNews: "I campi gioco “Estate Paradisi” ed “Estate Villa Sesso” proseguono fino al 30 luglio",
+    sottotitolo: "Il programma dei campi gioco di Accademia di quartiere rivolti ai ragazzi dai 6 ai 15 anni",
+    testoNews: "<p>A Reggio Emilia e Villa Sesso proseguono fino al 30 luglio i campi gioco estivi di Accademia di Quartiere in collaborazione con Officina Educativa del Comune di Reggio nell'Emilia. </p>\n" +
+        "\n" +
+"<p><B>“ESTATE PARADISI”, CORSI DI CANTO E ORTO IN TERRAZZA</B></p>\n" +
+        "<p>Il campo giochi estivo è rivolto ai ragazzi dai 6 ai 15 anni e le attività si svolgono in via Paradisi 10 a Reggio Emilia dal lunedì al venerdì, dalle 9 alle 13. In programma corsi di canto, orto in terrazza, visite ai Musei, momenti da dedicare ai compiti delle vacanze, corsi di inglese e spagnolo, letture e molto altro.</p>\n" + 
+"<p>Per info e iscrizioni: 353 4024417 (tutti i giorni dalle 10 alle 13) – <a href=mailto:accademiadiquartiere@gmail.com>accademiadiquartiere@gmail.com</a></p> \n" +
+"\n" +
+"\n" +
+"<p><b>“ESTATE VILLA SESSO”, GIOCHI, GITE E LABORATORIO DI TEATRO</b></p> \n" +
+"<p>Il campo giochi estivo è rivolto ai ragazzi dai 6 ai 12 anni. Le attività si svolgono presso la Sala Polivalente in via Galeotti 6 a Villa Sesso (RE) dal lunedì al venerdì, dalle 16 alle 19.30. In programma giochi, gite, momenti da dedicare ai compiti delle vacanze, il laboratorio di teatro a cura di Noveteatro e molto altro.</p> \n" +
+"<p>Per info e iscrizioni a “Estate Villa Sesso”: 333 7876797 (tutti i giorni dalle 15 alle 19) – <a href=mailto:accademiadiquartiere@gmail.com>accademiadiquartiere@gmail.com</a></p>\n" +
+"\n" +
+"<p>L'iscrizione costa <b>25 euro</b> a settimana, la quota può essere <b>rimborsata</b> e i nostri operatori sono disponibili a spiegare come ottenere il rimborso.</p>"
 
 },{
     
