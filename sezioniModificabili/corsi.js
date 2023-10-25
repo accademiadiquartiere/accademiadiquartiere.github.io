@@ -1,6 +1,6 @@
 var corsi = [{
     titolo: "Corsi di lingua italiana",
-    descrizione: " l'associazione fa parte della rete Diritto di Parola del Comune di Reggio Emilia e offre corsi di italiano che partono dal livello base ALFA - preA1 al livello B2",
+    descrizione: " l'associazione fa parte della rete Diritto di Parola del Comune di Reggio Emilia e offre corsi di italiano che partono dal livello base ALFA - preA1 al livello B2. Da ormai tre anni, inoltre, aderisce al progetto "Mamme a scuola" che permette a donne con figli in età prescolare (0-6 anni) di partecipare ad un corso di italiano con il supporto di un'educatrice che si occupa dei bambini.",
     quando:
         [{
             "nomeGruppo": "PRE-A1",
@@ -17,7 +17,7 @@ var corsi = [{
                     "orario": "Lunedì - Mercoledì 9:30 - 11:30"
                 }]
         }, {
-            "nomeGruppo": "Corso Mauriziano",
+            "nomeGruppo": "Corso al Mauriziano",
             "orari": [
                 {
                     "orario": "Mercoledì - Venerdì 10 - 12"
@@ -56,7 +56,7 @@ var corsi = [{
             "nomeGruppo": "Orario",
             "orari": [
                 {
-                    "orario": "Sabato, 10-11 "
+                    "orario": "Sabato, 10 - 11 "
                 }]
        
     immagine: "arabo.jpg"
