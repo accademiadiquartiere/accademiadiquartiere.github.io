@@ -6,21 +6,21 @@ var corsi = [{
             "nomeGruppo": "PRE-A1",
             "orari": [
                 {
-                    "orario": "Lunedì - Mercoledì 9:30 - 11:30"
-                }, {
-                    "orario": "Martedì - Giovedì 9:30 - 11:30"
-                }]
-        }, {
-            "nomeGruppo": "A2",
-            "orari": [
-                {
                     "orario": "Martedì - Giovedì 10 - 12"
+                }, {
+                    "orario": "Martedì - Giovedì 14:30 - 16:30"
                 }]
         }, {
-            "nomeGruppo": "B1/B2",
+            "nomeGruppo": "Mamme a scuola",
             "orari": [
                 {
-                    "orario": "Martedì - Giovedì 15 - 17"
+                    "orario": "Lunedì - Mercoledì 9:30 - 11:30"
+                }]
+        }, {
+            "nomeGruppo": "Corso Mauriziano",
+            "orari": [
+                {
+                    "orario": "Mercoledì - Venerdì 10 - 12"
                 }]
         }],
     immagine: "linguaItaliana.jpg"
