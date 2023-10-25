@@ -49,22 +49,16 @@ var corsi = [{
     immagine: "artiFigurative.jpg"
 
 }, {
-    titolo: "Cultura Araba",
+    titolo: "Corso di Arabo per ragazzi",
     descrizione: "il corso è rivolto a bambini e ragazzi di diverse età e comprende la lettura del Corano e lo studio della lingua araba.",
     quando:
         [{
-            "nomeGruppo": "Primo Gruppo",
+            "nomeGruppo": "Orario",
             "orari": [
                 {
-                    "orario": "Lunedì - Mercoledì 17:00 - 18:30"
+                    "orario": "Sabato, 10-11 "
                 }]
-        }, {
-            "nomeGruppo": "Secondo Gruppo",
-            "orari": [
-                {
-                    "orario": "Martedì - Giovedì 19 - 20:30"
-                }]
-        }],
+       
     immagine: "arabo.jpg"
 
 }];
